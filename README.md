@@ -3,7 +3,7 @@
 In order to install all dependencies simply run
 
 ```bash
-yuarn install
+yarn
 ```
 
 ## Developing
