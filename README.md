@@ -1,7 +1,3 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
-
 ## Installation
 
 In order to install all dependencies simply run
@@ -12,13 +8,11 @@ yuarn install
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
 yarn dev
 
 # or start the server and open the app in a new browser tab
-yarn dev -- --open
+yarn dev --open
 ```
 
 ## Building
