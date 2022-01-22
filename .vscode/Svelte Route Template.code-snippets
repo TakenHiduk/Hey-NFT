@@ -1,0 +1,32 @@
+{
+  "Vue Template": {
+    "prefix": "s-route 👌",
+    "body": [
+      "<style lang=\"scss\" scoped>",
+      "</style>",
+      "",
+      "<script lang=\"ts\" context=\"module\">",
+
+      "import type { Load } from '@sveltejs/kit';",
+      "",
+      "export const load: Load = ({ url, params }) => {",
+      "// TODO: Remove me before PRODUCTION",
+      "console.log(url);",
+      "// TODO: Remove me before PRODUCTION",
+      "console.log(params);",
+      "return {};",
+      "};",
+      "</script>",
+      "",
+      "<script lang=\"ts\">",
+      "</script>",
+      "",
+      "<svelte:head>",
+      "<title>$1</title>",
+      "</svelte:head>",
+      "",
+      "<span>Welcome to $2</span>"
+    ],
+    "description": "Svelte Route 👌"
+  }
+}
