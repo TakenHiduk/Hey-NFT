@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply rounded-xl;
+  }
+
+  body {
+    @apply antialiased;
+    @apply text-primary dark_text-primary-dark;
+    @apply bg-primary dark_bg-primary-dark;
+  }
+}

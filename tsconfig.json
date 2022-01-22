@@ -24,7 +24,6 @@
     "checkJs": true,
     "paths": {
       "@common/*": ["src/common/*"],
-      "@components/*": ["src/components/*"],
       "@stores/*": ["src/stores/*"]
     }
   },

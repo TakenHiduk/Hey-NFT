@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
-import { resolve } from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -25,7 +24,6 @@ const config = {
     resolve: {
       alias: {
         '@common': new URL('./src/common/', import.meta.url).pathname,
-        '@components': new URL('./src/components/', import.meta.url).pathname,
         '@stores': new URL('./src/stores/', import.meta.url).pathname,
       },
     },

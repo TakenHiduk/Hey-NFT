@@ -1,7 +1,6 @@
 <style lang="scss" scoped>
   .title {
     @apply text-4xl;
-    @apply text-primary dark_text-primary-dark;
   }
 
   .sub-title {
@@ -17,6 +16,8 @@
 </script>
 
 <script lang="ts">
+  // FIXME: Fix path aliases
+  import { ContainedButton } from '../common/components/button';
 </script>
 
 <svelte:head>
@@ -24,7 +25,13 @@
 </svelte:head>
 
 <div
-  class="flex m-auto p-5 rounded-xl justify-center items-center flex-col gap-5 bg-secondary dark_bg-secondary-dark">
+  class="flex m-auto p-5 justify-center items-center flex-col gap-5 bg-secondary dark_bg-secondary-dark">
   <span class="title">Welcome to Hey NFT</span>
   <span class="sub-title">This is a subtext</span>
+  <div class="flex items-center gap-2">
+    <ContainedButton class="px-3 py-2" color="accent">accent</ContainedButton>
+    <ContainedButton class="px-3 py-2" color="accent" loading />
+    <ContainedButton class="px-3 py-2" color="accent" loading
+      >accent</ContainedButton>
+  </div>
 </div>

@@ -20,11 +20,11 @@ module.exports = {
       },
 
       colors: {
-        accent: { DEFAULT: '', dark: '' },
-        success: { DEFAULT: '', dark: '' },
-        danger: { DEFAULT: '', dark: '' },
-        warning: { DEFAULT: '', dark: '' },
-        info: { DEFAULT: '', dark: '' },
+        accent: { DEFAULT: '#A976FE', dark: '#DB5AEE' },
+        success: { DEFAULT: '#00BE74', dark: '#1AD598' },
+        danger: { DEFAULT: '#FF2D59', dark: '#F2393B' },
+        warning: { DEFAULT: '#FD6601', dark: '#F9B959' },
+        info: { DEFAULT: '#0091FF', dark: '#0090FF' },
       },
     },
   },
